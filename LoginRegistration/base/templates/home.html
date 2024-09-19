@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<div style="text-align: center; margin-top: 20%;">
+    <h2>This is the home page. Hello!</h2>
+    <a href="{% url 'base:login' %}">
+        <button style="padding: 12px 24px; font-size: 16px; border-radius: 5px; background-color: #10182F; color: white; cursor: pointer; margin-top: 20px;">
+            Login Page
+        </button>
+    </a>
+</div>
+{% endblock content %}
